@@ -26,8 +26,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "hassle"
-    gem.summary = "Make SASS less of a hassle."
-    gem.description = "Makes SASS less of a hassle on read-only filesystems by compiling and serving it up for you."
+    gem.summary = "Make Sass less of a hassle."
+    gem.description = "Makes Sass less of a hassle on read-only filesystems by compiling and serving it up for you."
     gem.homepage = "http://github.com/pedro/hassle"
     gem.authors = ["Pedro Belo", "Nick Quaranto"]
     gem.files = FileList["LICENSE", "README.textile", "lib/hassle.rb", "init.rb"]
