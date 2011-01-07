@@ -18,7 +18,7 @@ class Hassle
       [200, {'Content-Type' => 'text/css',
              'Content-Length' => length,
              'Cache-Control' => "public, max-age=#{60 * 60 * 24 * 365}",
-             'Expires' => (Time.now + 1.hour).rfc2822}, [content]]
+             'Expires' => (Time.now + 1.year).rfc2822}, [content]]
       
     else
       # Not a request Hassle cares about
