@@ -1,3 +1,5 @@
+require 'active_support/time'
+
 class Hassle
   def initialize(app)
     @app = app

@@ -1,6 +1,8 @@
 # fix cache busting for Hassle stylesheets
 # try the original path ("public/") and if not found, try "tmp/".
 
+require 'action_view'
+require 'action_view/helpers'
 require 'action_view/helpers/asset_tag_helper'
 
 module ActionView::Helpers::AssetTagHelper
