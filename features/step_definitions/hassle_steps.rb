@@ -1,5 +1,5 @@
 Given /^I have a Rails app$/ do
-  `rails #{TEST_DIR}`
+  `rails new #{TEST_DIR}`
 end
 
 And /^I have a file "(.*)" with:$/ do |path, content|
