@@ -6,7 +6,7 @@ describe Hassle do
   def app
     Rack::Builder.new do
       use Hassle
-      run Proc.new {|env| [200, {"Content-Type" => "text/html"}, "hello!"]}
+      run Proc.new {|env| [200, {"Content-Type" => "text/html"}, ["hello!"]]}
     end
   end
 
