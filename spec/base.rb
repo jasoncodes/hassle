@@ -5,7 +5,7 @@ require 'active_support'
 require 'active_support/core_ext/numeric/time'
 require 'sass'
 require 'sass/plugin'
-require File.dirname(__FILE__) + '/../lib/hassle'
+require 'hassle'
 puts 1.hour
 SASS_OPTIONS = Sass::Plugin.options.dup
 

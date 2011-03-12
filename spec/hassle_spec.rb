@@ -1,5 +1,4 @@
-require File.dirname(__FILE__) + '/base'
-require 'active_support'
+require 'base'
 
 describe Hassle do
   include Rack::Test::Methods
