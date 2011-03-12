@@ -15,9 +15,8 @@ def write_sass(location, css_file = "screen")
 
   File.open(sass_path, "w") do |f|
     f.write <<EOF
-%h1 {
+h1
   font-size: 42em
-}
 EOF
   end
 

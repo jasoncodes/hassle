@@ -8,7 +8,7 @@ Feature: Integration into Rails Apps
     And I have a file "public/stylesheets/sass/hassle.sass" with:
     """
     h1
-      :font-size 42em
+      font-size: 42em
     """
     When Hassle is installed as a gem, via bundler
     And the Rails app is initialized in "production" mode
@@ -23,7 +23,7 @@ Feature: Integration into Rails Apps
     And I have a file "public/stylesheets/sass/hassle.sass" with:
     """
     h1
-      :font-size 42em
+      font-size: 42em
     """
     When Hassle is installed as a gem, via bundler
     And the Rails app is initialized in "development" mode
