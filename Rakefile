@@ -33,7 +33,7 @@ begin
     gem.files = FileList["LICENSE", "README.textile", "lib/hassle.rb", "init.rb"]
     gem.add_dependency('rack')
     gem.add_dependency('haml')
-    gem.add_development_dependency('rspec')
+    gem.add_development_dependency('rspec', '~> 1.0')
     gem.add_development_dependency('cucumber')
     gem.add_development_dependency('rack-test')
     gem.required_rubygems_version = Gem::Requirement.new(">= 1.3.5") if gem.respond_to? :required_rubygems_version=
