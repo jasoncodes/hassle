@@ -2,14 +2,21 @@ h1. Hassle
 
 Making "Sass":http://sass-lang.com/ less of a hassle on read only filesystems. (like "Heroku":http://heroku.com)
 
-IMPORTANT: This is for rails 3. If you want hassle for rails 2, then you should use "the original one":http://github.com/pedro/hassle 
+*IMPORTANT*: This is for rails 3. If you want hassle for rails 2, then you should use "the original one":http://github.com/pedro/hassle
 
-h2. Install
+h2. Integrate with Rails 3
 
-Get it from "Gemcutter.":http://gemcutter.org
+Hassle for Rails 3 has been released as a gem called @hassle3@
+
+Add this line to your Gemfile:
+
+  @gem "hassle3"@
+
+
+h2. Install from rubygems.org
 
 <pre>
-gem install hassle -s http://gemcutter.org
+gem install hassle
 </pre>
 
 h2. Usage
@@ -72,7 +79,11 @@ Here's how to integrate it with your favorite web framework:
 
 h3. Rails
 
-For Rails: @script/plugin install git://github.com/pedro/hassle@. Done. Once you're in production mode, Hassle will kick in and prepare your Sass for all to enjoy.
+For Rails 2: @script/plugin install git://github.com/pedro/hassle@.
+
+Note: This uses hassle for rails 2, from "the original repository":http://github.com/pedro/hassle
+
+Done. Once you're in production mode, Hassle will kick in and prepare your Sass for all to enjoy.
 
 h3. Sinatra
 
@@ -100,7 +111,7 @@ run Sinatra::Application
 And its wonderful Sass file:
 
 <pre>
-$ cat public/stylesheets/sass/application.sass 
+$ cat public/stylesheets/sass/application.sass
 h1
   font-size: 11em
   color: purple
@@ -113,3 +124,4 @@ Found some problems? Post 'em in "Issues":http://github.com/pedro/hassle/issues.
 h2. License
 
 Hassle uses the MIT license. Please check the LICENSE file for more details.
+
